@@ -1,0 +1,80 @@
+body {
+  font-size: 18px;
+  font-family: proxima-nova, sans-serif;
+  justify-content: space-around;
+  display: flex;
+  align-items: center;
+  margin: 3rem;
+  background-size: cover;
+  border-bottom: 5px solid;
+  padding-left: 20px; 
+  border-color: whitesmoke;
+  background-image: url('https://user-images.githubusercontent.com/86509310/136125947-8bf0dab8-3bdb-4f37-a682-477a2566e2a7.png')
+}
+h1 {
+  font-size: 22px;
+}
+img {
+  margin: 2rem;
+  border-radius: 10px;
+  max-height: 500px;
+  max-width: 500px;
+} 
+.profileImg {
+  background-position: cover;
+  border-radius: 8px;
+}
+.nameTag {
+  margin: 4rem;
+}
+.Projects {
+ font-size: 18px;
+ margin: 3rem;
+}
+button {
+  margin-left: 10px;
+  margin-bottom: 22px;
+  font-size: 14px;
+  border: 4px;
+  border-radius: 3rem;
+  background-color: whitesmoke;
+  font-family: proxima-nova, sans-serif;
+  font-size: 18px;
+  font-weight: 100;
+  overflow: hidden;
+  padding: 1rem 2rem;
+  position: relative;
+  transition: .2s;
+  transform: ease-in-out;
+  will-change: transform;
+  z-index: 0;
+  margin: 1rem;
+}  
+button:hover {
+background-color: #eeefed;
+border: 2px solid transparent;
+transform: scale(1.05);
+will-change: transform;
+}
+
+a:link{
+  text-decoration: none!important;
+} 
+.aboutMe {
+  margin: 2rem;
+  background-color:#eeefed;
+  border-radius: 4px;
+  padding: 20px;
+}
+.projectsClass {
+  background-color: #eeefed;
+  border-radius: 2px;
+  margin: 2rem;
+  padding: 20px;
+}
+.Projects {
+  border-radius: 2px;
+  margin: 2rem;
+}
+
+
