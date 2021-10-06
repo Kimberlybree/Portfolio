@@ -11,7 +11,7 @@ function Projects(props) {
             <CardGroup>
             <Card>
                 <Card.Body>
-                <Card.Img variant="top" src="/Planning.md/flashcards.png" />
+                {/* <Card.Img variant="top" src="/Planning.md/flashcards.png" /> */}
                 <Card.Title>
                 <h1>Javascript Flashcard Deck</h1>
                 </Card.Title>
@@ -24,7 +24,7 @@ function Projects(props) {
             </Card>
             <Card>
                 <Card.Body>
-                <Card.Img variant="top" src="/Planning.md/Curiosity.png" />
+                {/* <Card.Img variant="top" src="/Planning.md/Curiosity.png" /> */}
                 <Card.Title><h1>Curiosity Rover Photos using API</h1></Card.Title>
                 <Card.Text>
                 This project is built using React App, Javascript, HTML, CSS. The information is retrieved from NASA's open API source to render images taken on mars from an
@@ -35,7 +35,7 @@ function Projects(props) {
                 
             </Card>
             <Card>
-                <Card.Img variant="top" src="/Planning.md/Porto.png" />
+                {/* <Card.Img variant="top" src="/Planning.md/Porto.png" /> */}
                 <Card.Body>
                 <Card.Title><h1>Porto App</h1></Card.Title>
                 <Card.Text>
