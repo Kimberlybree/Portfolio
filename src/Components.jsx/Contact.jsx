@@ -12,7 +12,6 @@ function Contact(props) {
             <button className="linkedInButton"><a class="linked" href="https://www.linkedin.com/in/kimberlybree/">LinkedIn</a></button>
             <button className="gitHubButton"><a class="gitHub" href="https://github.com/Kimberlybree">GitHub</a></button>
 
-
         </div>
     );
 }
