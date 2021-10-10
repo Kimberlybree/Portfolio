@@ -1,9 +1,9 @@
 import React from 'react';
 import { Route, Link } from 'react-router-dom';
-import Projects from './Components.jsx/Projects.jsx';
-import AboutMe from './Components.jsx/AboutMe.jsx';
-import Contact from './Components.jsx/Contact';
-import Main from './Components.jsx/Main';
+import Projects from './Components/Projects.jsx';
+import AboutMe from './Components/AboutMe';
+import Contact from './Components/Contact';
+import Main from './Components/Main';
 
 
 function App(props) {

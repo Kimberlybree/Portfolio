@@ -2,6 +2,7 @@ import React from 'react';
 import Main from './Main';
 
 
+
 function Contact(props) {
     return (
         <div className="Contact">
@@ -11,6 +12,8 @@ function Contact(props) {
             <button variant="callButton"><a class="tel" href="tel: 310-867-9394">Call</a> </button>     
             <button className="linkedInButton"><a class="linked" href="https://www.linkedin.com/in/kimberlybree/">LinkedIn</a></button>
             <button className="gitHubButton"><a class="gitHub" href="https://github.com/Kimberlybree">GitHub</a></button>
+
+           
 
         </div>
     );
