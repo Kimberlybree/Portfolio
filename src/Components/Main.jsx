@@ -12,6 +12,7 @@ function Main(props) {
                   
                 </div>
                 <AboutMe />
+                
             
         </div>
         

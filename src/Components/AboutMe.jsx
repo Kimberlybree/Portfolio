@@ -9,12 +9,17 @@ function AboutMe(props) {
         <ul> 
             <li>HTML</li>
             <li>CSS</li>
-            <li>React</li>
             <li>Javascript</li>
+            <li>JavaScript fetch API</li>
+            <li>NodeJS</li>
+            <li>React</li>
             <li>Python</li>
             <li>Django</li>
             <li>MongoDB, Mongoose</li>
+            <li>Express</li>
             <li>PostgreSQL</li>
+            <li>Rest Framework</li>
+            <li>Jupyter Notebooks</li>
             <li>Github</li>
             <li>VSCode</li>
         </ul>
@@ -32,15 +37,15 @@ function AboutMe(props) {
         <h1>Hobbies & Interests:</h1>
         <ul>
             <li>Learning new programming languages</li>
-            <li>Outdoor activities</li>
             <li>Tech Podcasts</li>
             <li>Travel</li>
             <li>Women in tech/STEM</li>
+            <li>Healthy Food</li>
+            <li>Outdoor Activities</li>
             <li>Electric Vehicles</li>
             <li>Sustainability</li>
         </ul>
-
-</div>
+    </div>
     );
 }
 
