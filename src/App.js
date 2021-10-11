@@ -17,8 +17,8 @@ function App(props) {
             <button variant="projectsButton"> <Link to="/Projects"> Projects </Link> </button>
         
             
-                <Route exact path="/Main"
-                    component={Main} />  
+                <Route exact path="/"
+                    component={Home} />  
 
                 <Route exact path="/Contact"
                     component={Contact} /> 
