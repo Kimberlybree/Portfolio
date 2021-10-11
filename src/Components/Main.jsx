@@ -1,5 +1,6 @@
 import React from "react";
 import AboutMe from './AboutMe';
+import Contact from "./Contact";
 
 function Main(props) {
     return (
@@ -11,9 +12,9 @@ function Main(props) {
                     <img src="https://user-images.githubusercontent.com/86509310/136278732-da8eed3e-c91c-4842-9240-26a0f2071b19.png" alt=""></img> 
                   
                 </div>
-                <AboutMe />
+             
                 
-            
+    
         </div>
         
     );

@@ -19,16 +19,17 @@ function AboutMe(props) {
             <li>Express</li>
             <li>PostgreSQL</li>
             <li>Rest Framework</li>
-            <li>Jupyter Notebooks</li>
-            <li>Github</li>
-            <li>VSCode</li>
         </ul>
 
         <h1>Valuable Skills:</h1>
 
         <ul> 
+            <li>Github</li>
+            <li>VSCode</li>
+            <li>Jupyter Notebooks</li>
             <li>Wire framing</li>
             <li>Team Collaboration using Git Workflow, Slack, Discord</li>
+            <li>Heroku Deployment Experience</li>
             <li>Organized Note Taking</li>
             <li>Strong Communication</li>
             <li>Planning Skills using Project Boards, Trello</li>
