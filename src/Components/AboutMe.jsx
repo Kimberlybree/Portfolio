@@ -3,39 +3,43 @@ import React from 'react';
 function AboutMe(props) {
     return (
     <div className="aboutMe">
-        <h2>I am a Full-Stack Software Engineer</h2>
+        <h1>Kimberly Kruedelbach</h1>
+        <h3>Full-Stack Software Engineer</h3>
 
-        <h1>Technologies:</h1>
+        <h3>Technologies:</h3>
         <ul> 
             <li>HTML</li>
             <li>CSS</li>
             <li>Javascript</li>
-            <li>JavaScript fetch API</li>
+            <li>fetch API</li>
             <li>NodeJS</li>
             <li>React</li>
+            <li>Bootstrap</li>
+            <li>Next.js</li>
             <li>Python</li>
             <li>Django</li>
-            <li>MongoDB, Mongoose</li>
+            <li>MongoDB</li>
+            <li>Mongoose</li>
             <li>Express</li>
             <li>PostgreSQL</li>
             <li>Rest Framework</li>
         </ul>
 
-        <h1>Valuable Skills:</h1>
+        <h3>Valuable Skills:</h3>
 
         <ul> 
-            <li>Github</li>
             <li>VSCode</li>
+            <li>GitHub</li>
+            <li>GitHub Work Flow</li>
+            <li>GitHub Project Boards</li>
             <li>Jupyter Notebooks</li>
-            <li>Wire framing</li>
-            <li>Team Collaboration using Git Workflow, Slack, Discord</li>
-            <li>Heroku Deployment Experience</li>
-            <li>Organized Note Taking</li>
-            <li>Strong Communication</li>
-            <li>Planning Skills using Project Boards, Trello</li>
+            <li>Figma</li>
+            <li>WireFrame CC</li>
+            <li>Trello</li>
+           
         </ul> 
 
-        <h1>Hobbies & Interests:</h1>
+        <h3>Hobbies & Interests:</h3>
         <ul>
             <li>Learning new programming languages</li>
             <li>Tech Podcasts</li>

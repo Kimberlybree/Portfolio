@@ -1,14 +1,12 @@
 body {
   font-size: 16px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: lato;
   justify-content: space-around;
   display: flex;
   align-items: center;
   margin: 3rem;
+  background-image: url('https://i.pinimg.com/564x/8c/11/35/8c113514a5a7885ac11e521b0c6545f1.jpg');
   background-size: cover;
-  border-bottom: 5px solid;
-  padding-left: 20px; 
-  border-color: lightgray;
 }
 h1 {
   font-size: 20px;
@@ -29,7 +27,6 @@ img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-
 }
 .nameTag {
   margin: 4rem;
@@ -68,11 +65,14 @@ a:link{
   text-decoration: none!important;
 } 
 .aboutMe {
+  font-family: lato, serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
   margin: 2rem;
   background-color:#eeefed;
   border-radius: 4px;
   padding: 20px; 
-  font-size: 16px;
 }
 .projectsClass {
   background-color: #eeefed;
@@ -85,6 +85,7 @@ a:link{
   margin: 2rem;
 }
 .contactButtons {
-  margin: 10rem;
-  padding-bottom: 200px;
+
+  padding: 20px;
+  border-radius: 9px;
 }

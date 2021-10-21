@@ -2,7 +2,6 @@ import React from 'react';
 import { Route, Link } from 'react-router-dom';
 import Projects from './Components/Projects.jsx';
 import Contact from './Components/Contact';
-import Main from './Components/Main';
 import AboutMe from './Components/AboutMe';
 import Navbar from 'react-bootstrap/Navbar';
 import Container from 'react-bootstrap/Container';
@@ -21,13 +20,12 @@ function App(props) {
             <> */}
         <Navbar bg="light" variant="light">
             <Container>
-            <Navbar.Brand href="/Main">Welcome to My Portfolio!</Navbar.Brand>
             <Nav className="me-auto">
+            <Nav.Link href="/AboutMe">KK</Nav.Link>
             <Nav.Link href="/AboutMe">About Me</Nav.Link>
             <Nav.Link href="https://www.canva.com/design/DAEr_RHv7wY/4GuIItHKvARb2tjTFPrd3Q/view?utm_content=DAEr_RHv7wY&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink">Resume</Nav.Link>
             <Nav.Link href="/Projects">Projects</Nav.Link>
             <Nav.Link href="/Contact">Contact</Nav.Link>
-    
     
             </Nav>
             </Container>
@@ -35,7 +33,7 @@ function App(props) {
         <br />
      
                 <Route exact path="/"
-                    component={Main}/>  
+                    component={AboutMe}/>  
 
                 <Route exact path="/Contact"
                     component={Contact} /> 
@@ -46,9 +44,7 @@ function App(props) {
 
                 <Route exact path="/Projects"
                     component={Projects} /> 
-            
-                <Route exact path="/Main"
-                    component={Main} /> 
+
 
 
         </div>
