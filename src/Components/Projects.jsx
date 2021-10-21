@@ -11,11 +11,11 @@ function Projects(props) {
                 <Card.Body>
                 <Card.Img variant="top"/>
                 <Card.Title>
-                <h1>Javascript Flashcard Deck</h1>
+                Javascript Flashcard Deck
                 </Card.Title>
                 <Card.Text>
-                An Educational Flashcard deck to practice Javascript vocabulary.
-                <button> <a className="flashcards" href="https://kimberlybree.github.io/Flashcard-Game/">Play here!</a></button>
+                Created a JavaScript learning game using flashcards. This consisted of HTML, CSS, JavaScript, and using DOM Manipulation. The game contains an introduction pop-up modal, clickable flashcard container, a countdown timer, and a desk-themed CSS styling. <br/> 
+                <button> <a className="flashcards" href="https://kimberlybree.github.io/Flashcard-Game/"> Play here!</a></button>
                 </Card.Text>
                 </Card.Body>
              
@@ -23,10 +23,9 @@ function Projects(props) {
             <Card>
                 <Card.Body>
                 {/* <Card.Img variant="top" src="/Planning.md/Curiosity.png" /> */}
-                <Card.Title><h1>Curiosity Rover Photos using API</h1></Card.Title>
+                <Card.Title>API React App</Card.Title>
                 <Card.Text>
-                This project is built using React App, Javascript, HTML, CSS. The information is retrieved from NASA's open API source to render images taken on mars from an
-                 one of the 7 cameras on an active mission from the rover.
+                Connected NASA’s open source API to build a kid-friendly website that renders images from Curiosity’s Rover on Mars. This was created using React-App and bootstrap
                 </Card.Text>
         
                 </Card.Body>
@@ -35,10 +34,10 @@ function Projects(props) {
             <Card>
                 {/* <Card.Img variant="top" src="/Planning.md/Porto.png" /> */}
                 <Card.Body>
-                <Card.Title><h1>Porto App</h1></Card.Title>
+                <Card.Title>Portfolio React App</Card.Title>
                 <Card.Text>
-                The inspiration behind this project was to fill a need for a user-friendly website that connects a recruiter to a potential candidate based on their history and projects. The app allows you to search by name, title, or location and will pull up a user profile with projects and contact/resume info.  This was a group project was built front end and back end using React, React Bootstrap, Heroku, Cors, Express, Mongoose, and more. 
-                   
+                A Full-Stack portfolio platform that allows users to add and view profiles with their work. This was created by 4 software engineers for CRUD functionality, add and search functionality using React, bootstrap, express, handlebars, and mongoose. 
+
                 </Card.Text>
                 </Card.Body>
            

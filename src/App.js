@@ -23,7 +23,7 @@ function App(props) {
             <Nav className="me-auto">
             <Nav.Link href="/AboutMe">KK</Nav.Link>
             <Nav.Link href="/AboutMe">About Me</Nav.Link>
-            <Nav.Link href="https://www.canva.com/design/DAEr_RHv7wY/4GuIItHKvARb2tjTFPrd3Q/view?utm_content=DAEr_RHv7wY&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink">Resume</Nav.Link>
+            {/* <Nav.Link href="https://www.canva.com/design/DAEr_RHv7wY/4GuIItHKvARb2tjTFPrd3Q/view?utm_content=DAEr_RHv7wY&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink">Resume</Nav.Link> */}
             <Nav.Link href="/Projects">Projects</Nav.Link>
             <Nav.Link href="/Contact">Contact</Nav.Link>
     
