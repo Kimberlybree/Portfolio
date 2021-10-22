@@ -36,14 +36,10 @@ img {
  margin: 3rem;
 }
 button {
-  margin-left: 10px;
-  margin-bottom: 22px;
   font-size: 18px;
   border: 4px;
-  border-radius: 3rem;
-  background-color: whitesmoke;
+  background-color: rgb(238, 238, 238);
   font-family: 'Open Sans', sans-serif;
-  font-weight: 100;
   overflow: hidden;
   padding: 1rem 2rem;
   position: relative;
@@ -52,8 +48,7 @@ button {
   will-change: transform;
   z-index: 0;
   margin: 1rem;
-  
-}  
+}   
 button:hover {
 background-color: #eeefed;
 border: 2px solid transparent;
@@ -68,10 +63,9 @@ a:link{
   font-family: lato, serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 16px;
+  font-size: 18px;
   margin: 2rem;
-  background-color:#eeefed;
-  border-radius: 4px;
+  background-color:#fcfcfce7;
   padding: 20px; 
 }
 .projectsClass {
@@ -85,7 +79,6 @@ a:link{
   margin: 2rem;
 }
 .contactButtons {
-
   padding: 20px;
   border-radius: 9px;
 }

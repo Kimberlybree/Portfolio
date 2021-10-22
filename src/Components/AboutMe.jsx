@@ -5,7 +5,6 @@ function AboutMe(props) {
     <div className="aboutMe">
         <h1>Kimberly Kruedelbach</h1>
         <h3>Full-Stack Software Engineer</h3>
-
         <h3>Technologies:</h3>
         <ul> 
             <li>HTML</li>
